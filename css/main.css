@@ -23,7 +23,7 @@ img {
 }
 
 .logo{
-  width: 180px;
+  width: 200px;
   text-align: left;
 }
 
@@ -42,14 +42,13 @@ nav ol {
   list-style-type: none;
   display: flex;
   gap: 1rem;
-  align-items: center;
   padding: 0rem 1rem;
 }
 
 nav ol li a {
   color: #ffffff;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 24px;
   font-family: 'cheap-pine-sans', sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -110,19 +109,46 @@ main {
 .shop-grid {
   display: grid;
   grid-template-columns: 2fr 2fr;
-  gap: 2rem 1rem;
+  gap: 3rem 1rem;
   margin-top: 1rem;
   margin-bottom: 3rem;
   text-align: center;
 }
 
+.item-names {
+  font-family: 'cheap-pine-sans', sans-serif;
+  font-size: 32px;
+  color: #000000;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 
+.price {
+  font-family: 'cheap-pine-sans', sans-serif;
+  font-size: 24px;
+  color: #A82727;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
 
+.button {
+  font-family: 'cheap-pine-sans', sans-serif;
+  font-size: 24px;
+  color: #FFFFFF;
+  background-color: #000000;
+  border: 15px solid #000000;
+  border-radius: .3rem;
+  transition: all .3s linear;
+  text-decoration: none;
+}
 
-
-
-
-
+.button:hover {
+  background-color: #A82727;
+  color: #FFFFFF;
+  border: 15px solid #A82727;
+  border-radius: .5rem;
+  text-decoration: none;
+}
 
 
 .about-page {
@@ -147,4 +173,63 @@ main {
 
 .about-page-pic {
   padding-top: 2rem;
+}
+
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem 1rem .5rem 1rem;
+}
+
+form {
+
+
+}
+
+label {
+  font-size: 32px;
+  font-family: 'cheap-pine-sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-submit {
+  display: flex;
+  margin-top: .5rem;
+}
+
+.form-button {
+  background-color: #A82727;
+  border-color: #A82727;
+  font-size: 16px;
+  font-family: 'cheap-pine-sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  transition: all .3s linear;
+}
+
+.form-button:hover {
+  color: #000000;
+}
+
+.form-text {
+  color: #818181;
+}
+
+.footer ol {
+  margin-top: 0rem;
+}
+
+footer p {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 0rem;
 }
